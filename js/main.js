@@ -12,15 +12,27 @@ fetch("data/img.json")
     console.log(data)
     for (const keys in data) {
       console.log(keys);
+
+fetch("url/url.json")
+.then((response) => response.json())
+.then((dataData) => {
+  console.log(dataData);
+  for (const keys in dataData) {
+    console.log(keys)
+
+
+
       const main = document.getElementById("main");
       main.innerHTML += '\
     <div id="image" class="col-9 col-sm-4 text-white my-2">\
-      <img src=' + data[keys] + ' class="card-img" alt="...">\
-        <div class="card-img-overlay"><h5 class="card-title"></h5><p class="card-text"></p><p class="card-text"></p>\
+     <img src=' + data[keys] + ' class="card-img" alt="...">\
+        <a href=' + dataData[keys] + '><div class="card-img-overlay"><h5 class="card-title"></h5><p class="card-text"></p><p class="card-text"></p>\
         </div>\
     </div>'
     }
-  });
+  })
+}
+});
 /* #################### Footer #################### */
 const footer = document.getElementById("footer");
 console.log(footer);
