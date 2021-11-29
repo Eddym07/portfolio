@@ -1,27 +1,26 @@
 {
     "img1" : {
-      "path": "/img/LaBanqueHavraise.png",
+      "path": "/portfolio/img/LaBanqueHavraise.png",
       "url": "https://github.com/Eddym07/La-banque-Havraise"
     },
     "img2" : {
-      "path": "/img/wikiStarsWars.png",
-      "url": "https://github.com/Eddym07/La-banque-Havraise"
+      "path": "/portfolio/img/wikiStarsWars.png",
+      "url": "https://github.com/Eddym07/stars_wars"
     },
     "img3" : {
-      "path": "/img/shifoumi.jpg",
+      "path": "/portfolio/img/shifoumi.jpg",
       "url": "https://github.com/Eddym07/chifoumi"
     },
     "img4" : {
-      "path": "/img/terre_de_geek.png",
+      "path": "/portfolio/img/terre_de_geek.png",
       "url": "https://github.com/Eddym07/Terre-de-geek"
     },
     "img5" : {
-      "path": "/img/LePendu.jpg",
+      "path": "/portfolio/img/LePendu.jpg",
       "url" : "https://github.com/Eddym07/Le_pendu"
     },
     "img6" : {
-      "path": "/img/ocean.jpg",
+      "path": "/portfolio/img/ocean.jpg",
       "url": "https://github.com/Eddym07/La-banque-Havraise"
     }
   }
-  
